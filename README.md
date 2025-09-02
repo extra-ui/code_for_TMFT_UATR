@@ -18,7 +18,7 @@ The TMFT-UATR model is built upon a powerful transformer-based architecture that
 
 The overall architecture is illustrated below:
 
-  <!-- You can replace this with a link to your model architecture diagram -->
+![Overview of the modal fusion process, including position and modal-type embeddings followed by feature fusion through a multi-layer Transformer.](./assets/Figure_1.jpg)
 
 ## Key Features
 
@@ -60,11 +60,6 @@ The repository is organized as follows:
 -   Pandas
 -   NumPy
 
-Install the required packages using pip:
-```bash
-pip install -r requirements.txt
-```
-
 ### Data Preparation
 
 1.  Organize your audio files, images, and a CSV file containing text descriptions.
@@ -82,23 +77,10 @@ bert_weight = 'path/to/your/bert-base-uncased' # or other BERT model directory
 
 ### Training
 
-To train the model, execute the main training script (e.g., `train.py`, not provided but can be created):
+To train the model, create your own training script:
 
 ```bash
 python train.py --config configs/my_config.yaml
-```
-
-## Citation
-
-If you find this work useful in your research, please consider citing our paper:
-
-```bibtex
-@article{zhao2024multimodal,
-  title={Multimodal fusion transformer for enhanced underwater acoustic target recognition},
-  author={Zhao, Rongyao and Zhao, Lyufang and Xu, Jing and Liu, Feng and Liu, Yuanxin and Shen, Tongsheng},
-  journal={Journal of Underwater Acoustics},
-  year={2024}
-}
 ```
 
 ## Acknowledgements
