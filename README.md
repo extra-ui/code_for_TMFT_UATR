@@ -18,8 +18,7 @@ The TMFT-UATR model is built upon a powerful transformer-based architecture that
 
 The overall architecture is illustrated below:
 
-![Overview of the modal fusion process, including position and modal-type embeddings followed by feature fusion through a multi-layer Transformer.](./assets/Figure_1.jpg)
-
+![Overview of the modal fusion process, including position and modal-type embeddings followed by feature fusion through a multi-layer Transformer.](./assets/Figure_4.jpg)
 ## Key Features
 
 -   **Tri-modal Fusion**: Effectively combines audio, image, and text data for robust target recognition.
