@@ -1,6 +1,6 @@
 # Multimodal Fusion Transformer for Enhanced Underwater Acoustic Target Recognition
 
-This repository contains the official implementation for the paper **"Multimodal Fusion Transformer for Enhanced Underwater Acoustic Target Recognition"** by Rongyao Zhao, Lyufang Zhao, Jing Xu, Feng Liu, Yuanxin Liu, and Tongsheng Shen.
+This repository contains the official implementation for the paper **"Multimodal Fusion Transformer for Enhanced Underwater Acoustic Target Recognition"**.
 
 This project introduces a tri-modal fusion transformer (TMFT-UATR) that integrates **audio**, **image**, and **text** modalities to address the challenges of underwater acoustic target recognition, such as complex environments and limited data. Our model demonstrates the effectiveness of multimodal learning, with experimental results showing significant improvements over baseline methods.
 
